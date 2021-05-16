@@ -1,0 +1,22 @@
+html,body{ margin:0; padding:0; height:100%; width:100%; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+background-color:#759EB8;}
+.wrapper{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);  
+}
+.clock{
+  font-size:60px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-content:center;
+}
+.center{
+  color:#070A0D;
+  align-self:center;
+}
+.welcome{
+  color:#151E28;
+}
